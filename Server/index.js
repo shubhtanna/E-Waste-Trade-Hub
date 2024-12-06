@@ -46,7 +46,7 @@ app.use("/api", ticketRoutes)
 app.use("/api/reviews", ReviewRoutes);
 
 app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', 'https://startup-seven-lovat.vercel.app');
+    res.header('Access-Control-Allow-Origin', 'https://e-waste-trade-hub.vercel.app/');
     res.header('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE,OPTIONS');
     res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
     res.header('Access-Control-Allow-Credentials', 'true'); // If credentials are required
