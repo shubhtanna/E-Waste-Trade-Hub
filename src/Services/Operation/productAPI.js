@@ -4,7 +4,7 @@ import { product } from "../apis";
 import { setLoading } from "../../Slices/authSlice"
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/api/v1"
+const BASE_URL = "https://e-waste-trade-hub.onrender.com/api/v1"
 
 const { ADD_PRODUCT_API, UPDATE_PRODUCT_API, DELETE_PRODUCT_API, GET_ALL_BRAND_API, GET_ALL_CATEGORY_API,
     GET_ALL_MY_PRODUCTS, ADD_PRICE, GET_ALL_INTERESTED_SHOP, GET_FULL_DETAILS_OF_PRODUCT
