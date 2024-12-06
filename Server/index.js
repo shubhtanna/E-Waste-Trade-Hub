@@ -31,7 +31,7 @@ app.use(fileUpload({
 
 app.use(
     cors({
-        origin: ['http://localhost:3000', 'https://startup-seven-lovat.vercel.app'],
+        origin: ['http://localhost:3000', 'https://startup-seven-lovat.vercel.app','https://e-waste-trade-hub.vercel.app/'],
         credentials: true,
     })
 )
